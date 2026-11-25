@@ -1,0 +1,74 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 1 /Kids [5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3551 >>
+stream
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 48 782 Tm (AIORI-3  /  SMART CITIES  /  PS-015) Tj ET
+0.065 0.150 0.210 rg BT /F2 29 Tf 1 0 0 1 48 741 Tm (NetDoctor jury runbook) Tj ET
+0.840 0.880 0.890 rg 48 720 499 1 re f
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 48 695 Tm (WINDOWS DESKTOP  /  ISOLATED LOOPBACK  /  TEAM NAME PENDING) Tj ET
+0.065 0.150 0.210 rg BT /F2 12 Tf 1 0 0 1 48 662 Tm (01  Pick) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 645 Tm (Open Pick a Fault, confirm local Python, then ask the judge to choose a sealed card.) Tj ET
+0.065 0.150 0.210 rg BT /F2 12 Tf 1 0 0 1 48 615 Tm (02  Measure) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 598 Tm (Read the independent verdict and observations while the injected condition remains hidden.) Tj ET
+0.065 0.150 0.210 rg BT /F2 12 Tf 1 0 0 1 48 568 Tm (03  Reveal) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 551 Tm (Reveal the condition. Compare it to the verdict, explain the evidence, then run the clean) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 534 Tm (retest.) Tj ET
+0.065 0.150 0.210 rg BT /F2 12 Tf 1 0 0 1 48 504 Tm (04  Handoff) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 487 Tm (Export the redacted PDF or JSON. Point to run ID, timestamp, mode, observations and safe) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 470 Tm (next step.) Tj ET
+0.910 0.965 0.952 rg 48 404 499 26 re f
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 58 412 Tm (SIX CONDITIONS, SIX INTERPRETATIONS) Tj ET
+0.065 0.150 0.210 rg BT /F2 11 Tf 1 0 0 1 48 387 Tm (Clean) Tj ET
+0.310 0.370 0.430 rg BT /F1 9 Tf 1 0 0 1 48 371 Tm (No fault observed in these conditions) Tj ET
+0.065 0.150 0.210 rg BT /F2 11 Tf 1 0 0 1 300 387 Tm (Gateway) Tj ET
+0.310 0.370 0.430 rg BT /F1 9 Tf 1 0 0 1 300 371 Tm (No surrogate response) Tj ET
+0.065 0.150 0.210 rg BT /F2 11 Tf 1 0 0 1 48 342 Tm (DNS) Tj ET
+0.310 0.370 0.430 rg BT /F1 9 Tf 1 0 0 1 48 326 Tm (Resolver failure) Tj ET
+0.065 0.150 0.210 rg BT /F2 11 Tf 1 0 0 1 300 342 Tm (Packet loss) Tj ET
+0.310 0.370 0.430 rg BT /F1 9 Tf 1 0 0 1 300 326 Tm (Numbered replies below the sent count) Tj ET
+0.065 0.150 0.210 rg BT /F2 11 Tf 1 0 0 1 48 297 Tm (Congestion) Tj ET
+0.310 0.370 0.430 rg BT /F1 9 Tf 1 0 0 1 48 281 Tm (Increased loaded versus idle RTT) Tj ET
+0.065 0.150 0.210 rg BT /F2 11 Tf 1 0 0 1 300 297 Tm (Compound) Tj ET
+0.310 0.370 0.430 rg BT /F1 9 Tf 1 0 0 1 300 281 Tm (Conflicting observations: Inconclusive) Tj ET
+0.020 0.420 0.390 rg BT /F2 11 Tf 1 0 0 1 48 237 Tm (Measured Windows lab: 30/30 matched; compound 5/5 Inconclusive.) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 212 Tm (Lab results are not field accuracy. Live probes are separate and read-only. Do not infer) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 195 Tm (cable damage, Wi-Fi interference or ISP-internal faults. Field pilot design only: no) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 178 Tm (volunteer endpoints yet. Gemini is optional; no live key is needed.) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 135 Tm (Fallback: if local measurement is unavailable, show labeled recorded evidence or fixtures) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 118 Tm (and say it is not a fresh run. Use the separate test report for UI, retest and export) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 101 Tm (verification.) Tj ET
+0.840 0.880 0.890 rg 48 60 499 1 re f
+0.310 0.370 0.430 rg BT /F2 8 Tf 1 0 0 1 48 43 Tm (NETDOCTOR   /   AIORI-3 PS-015) Tj ET
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 527 43 Tm (01) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000320 00000 n 
+0000000456 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4059
+%%EOF

@@ -1,0 +1,120 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [5 0 R 7 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3526 >>
+stream
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 48 782 Tm (AIORI-3 / PS-015 / VALIDATION) Tj ET
+0.065 0.150 0.210 rg BT /F2 29 Tf 1 0 0 1 48 741 Tm (NetDoctor test report) Tj ET
+0.840 0.880 0.890 rg 48 720 499 1 re f
+0.910 0.965 0.952 rg 48 620 499 74 re f
+0.020 0.420 0.390 rg BT /F2 29 Tf 1 0 0 1 62 650 Tm (30/30) Tj ET
+0.065 0.150 0.210 rg BT /F2 13 Tf 1 0 0 1 174 659 Tm (Measured trials matched the expected outcome) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 174 638 Tm (5 rounds on Windows; fresh loopback sockets) Tj ET
+0.310 0.370 0.430 rg BT /F1 9 Tf 1 0 0 1 48 599 Tm (Collected 2026-11-24 20:06:26 UTC  |  Randomized order, seed 150) Tj ET
+0.910 0.965 0.952 rg 48 551 499 24 re f
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 55 559 Tm (CONDITION) Tj ET
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 208 559 Tm (EXPECTED VERDICT) Tj ET
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 416 559 Tm (MATCHED) Tj ET
+0.065 0.150 0.210 rg BT /F2 10 Tf 1 0 0 1 55 529 Tm (Clean control) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 208 529 Tm (No fault observed) Tj ET
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 416 529 Tm (5/5) Tj ET
+0.840 0.880 0.890 rg 48 517 499 1 re f
+0.065 0.150 0.210 rg BT /F2 10 Tf 1 0 0 1 55 497 Tm (Gateway unavailable) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 208 497 Tm (Gateway unreachable) Tj ET
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 416 497 Tm (5/5) Tj ET
+0.840 0.880 0.890 rg 48 485 499 1 re f
+0.065 0.150 0.210 rg BT /F2 10 Tf 1 0 0 1 55 465 Tm (DNS failure) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 208 465 Tm (DNS failure) Tj ET
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 416 465 Tm (5/5) Tj ET
+0.840 0.880 0.890 rg 48 453 499 1 re f
+0.065 0.150 0.210 rg BT /F2 10 Tf 1 0 0 1 55 433 Tm (Packet loss) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 208 433 Tm (Packet loss) Tj ET
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 416 433 Tm (5/5) Tj ET
+0.840 0.880 0.890 rg 48 421 499 1 re f
+0.065 0.150 0.210 rg BT /F2 10 Tf 1 0 0 1 55 401 Tm (Congestion) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 208 401 Tm (Latency rose under load) Tj ET
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 416 401 Tm (5/5) Tj ET
+0.840 0.880 0.890 rg 48 389 499 1 re f
+0.065 0.150 0.210 rg BT /F2 10 Tf 1 0 0 1 55 369 Tm (Conflicting signals) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 208 369 Tm (Inconclusive) Tj ET
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 416 369 Tm (5/5) Tj ET
+0.840 0.880 0.890 rg 48 357 499 1 re f
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 315 Tm (Deciding readings from round 1) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 291 Tm (Packet loss: 7/10 received in the fault vs. 10/10 clean. Congestion: median RTT moved from) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 274 Tm (0.4 ms idle to 302.7 ms loaded during the 512 KiB local transfer.) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 250 Tm (In the compound case, the gateway did not reply, DNS returned SERVFAIL, and all numbered) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 233 Tm (packets returned. Mixed evidence did not justify naming a single cause.) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 209 Tm (Median run time: 0.51 s on this laptop. This measures the lab workflow, not broadband) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 192 Tm (speed or national diagnostic accuracy.) Tj ET
+0.840 0.880 0.890 rg 48 60 499 1 re f
+0.310 0.370 0.430 rg BT /F2 8 Tf 1 0 0 1 48 43 Tm (NETDOCTOR   /   AIORI-3 PS-015) Tj ET
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 527 43 Tm (01) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 3079 >>
+stream
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 48 782 Tm (METHOD / COVERAGE) Tj ET
+0.065 0.150 0.210 rg BT /F2 29 Tf 1 0 0 1 48 741 Tm (What the tests establish) Tj ET
+0.840 0.880 0.890 rg 48 720 499 1 re f
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 685 Tm (A blind verdict) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 661 Tm (The harness selects the condition; the rule engine receives only observed values.) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 644 Tm (Measurement-only replay agreed in 30/30 trials. A unit test also gives identical) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 627 Tm (readings to all six harness labels and expects identical verdicts.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 594 Tm (Application verification) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 570 Tm (Python: 24 automated tests passed; actual measured compound fault and case-label) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 553 Tm (isolation included.) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 529 Tm (Windows: 10 automated tests; native packaged workflow passed sealed verdict, explicit) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 512 Tm (reveal, clean retest, and PDF export.) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 488 Tm (Web: 13 automated tests and static build passed. Android: 8 unit tests, 1 measured) Tj ET
+0.310 0.370 0.430 rg BT /F1 10 Tf 1 0 0 1 48 471 Tm (Python integration, and Expo bundle passed. No handset or APK tested.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 438 Tm (Separate live network check) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 414 Tm (Windows host check: No issue observed. Local gateway: 4 of 4 replies. DNS lookups: 2 of) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 397 Tm (2. Secure web probes: 2 of 2. Fixed external IP accepted a connection.) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 373 Tm (This read-only host snapshot is separate from the lab. Nonresponses or filtering are not) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 356 Tm (proof of an ISP fault. No network settings were changed.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 323 Tm (Reproduce and review) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 299 Tm (From the project root: python backend/evaluate.py --rounds 5 --out evidence.json. See) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 282 Tm (the companion CSV and JSON for samples, IDs, sources, and per-run timings.) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 258 Tm (Field accuracy, radio interference detection, and broadband throughput are not) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 241 Tm (validated. The volunteer pilot is a protocol, not a completed collection. No cloud) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 224 Tm (account or AI key is required for the lab.) Tj ET
+0.840 0.880 0.890 rg 48 60 499 1 re f
+0.310 0.370 0.430 rg BT /F2 8 Tf 1 0 0 1 48 43 Tm (NETDOCTOR   /   AIORI-3 PS-015) Tj ET
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 527 43 Tm (02) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000224 00000 n 
+0000000326 00000 n 
+0000000462 00000 n 
+0000004040 00000 n 
+0000004176 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+7307
+%%EOF

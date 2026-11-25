@@ -1,0 +1,25 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  match /users/{uid}/reports/{id} {
+   function owner() { return request.auth != null && request.auth.uid == uid; }
+   function valid() {
+    let d = request.resource.data;
+    return d.keys().hasAll(['schema','id','mode','created_at','access','diagnosis','measurements','evidence','actions','limitations','scenario','source'])
+      && d.keys().hasOnly(['schema','id','mode','created_at','access','diagnosis','measurements','evidence','actions','limitations','scenario','source'])
+      && d.schema == 'netdoctor.evidence.v1' && d.id == id && id.size() <= 80
+      && d.mode in ['demo','live'] && d.created_at is string && d.created_at.size() <= 40
+      && d.access in ['wifi','ethernet','unknown']
+      && d.source is string && d.source.size() <= 40
+      && (d.scenario == null || (d.scenario is string && d.scenario.size() <= 80))
+      && d.diagnosis is map && d.diagnosis.keys().hasOnly(['code','title','confidence','summary'])
+      && d.measurements is list && d.measurements.size() <= 30
+      && d.evidence is list && d.evidence.size() <= 20
+      && d.actions is list && d.actions.size() <= 20
+      && d.limitations is list && d.limitations.size() <= 20;
+   }
+   allow get, list, delete: if owner();
+   allow create, update: if owner() && valid();
+  }
+ }
+}

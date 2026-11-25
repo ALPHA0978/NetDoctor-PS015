@@ -1,0 +1,320 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 8 /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1093 >>
+stream
+0.065 0.150 0.210 rg 0 0 595 842 re f
+0.230 0.820 0.670 rg 48 735 82 4 re f
+0.490 0.880 0.780 rg BT /F2 12 Tf 1 0 0 1 48 692 Tm (AIORI-3  /  NORTH REGIONAL  /  PS-015) Tj ET
+1.000 1.000 1.000 rg BT /F2 56 Tf 1 0 0 1 48 592 Tm (NetDoctor) Tj ET
+1.000 1.000 1.000 rg BT /F2 24 Tf 1 0 0 1 48 550 Tm (Explainable home and) Tj ET
+1.000 1.000 1.000 rg BT /F2 24 Tf 1 0 0 1 48 518 Tm (last-mile connectivity diagnosis) Tj ET
+0.860 0.910 0.930 rg BT /F1 11 Tf 1 0 0 1 48 459 Tm (A desktop-first, evidence-led workflow. Measure what happened,) Tj ET
+0.860 0.910 0.930 rg BT /F1 11 Tf 1 0 0 1 48 442 Tm (explain what the signals support, and give households a clear next) Tj ET
+0.860 0.910 0.930 rg BT /F1 11 Tf 1 0 0 1 48 425 Tm (step.) Tj ET
+0.490 0.880 0.780 rg BT /F2 10 Tf 1 0 0 1 48 320 Tm (TEAM NAME) Tj ET
+1.000 1.000 1.000 rg BT /F1 15 Tf 1 0 0 1 48 295 Tm (Official team name pending) Tj ET
+1.000 1.000 1.000 rg BT /F2 13 Tf 1 0 0 1 48 221 Tm (Prior baseline: 15/15 controlled trials matched) Tj ET
+0.730 0.840 0.850 rg BT /F2 10 Tf 1 0 0 1 48 102 Tm (TECHNICAL REPORT  /  NOVEMBER 2026) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1524 >>
+stream
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 48 782 Tm (01 / CONTENTS) Tj ET
+0.065 0.150 0.210 rg BT /F2 29 Tf 1 0 0 1 48 741 Tm (Table of contents) Tj ET
+0.840 0.880 0.890 rg 48 720 499 1 re f
+0.065 0.150 0.210 rg BT /F2 15 Tf 1 0 0 1 48 665 Tm (Problem description) Tj ET
+0.020 0.420 0.390 rg BT /F2 14 Tf 1 0 0 1 525 665 Tm (3) Tj ET
+0.840 0.880 0.890 rg 48 648 499 1 re f
+0.065 0.150 0.210 rg BT /F2 15 Tf 1 0 0 1 48 610 Tm (Solution proposed and escalation) Tj ET
+0.020 0.420 0.390 rg BT /F2 14 Tf 1 0 0 1 525 610 Tm (4) Tj ET
+0.840 0.880 0.890 rg 48 593 499 1 re f
+0.065 0.150 0.210 rg BT /F2 15 Tf 1 0 0 1 48 555 Tm (Optimizations and measured evidence) Tj ET
+0.020 0.420 0.390 rg BT /F2 14 Tf 1 0 0 1 525 555 Tm (5) Tj ET
+0.840 0.880 0.890 rg 48 538 499 1 re f
+0.065 0.150 0.210 rg BT /F2 15 Tf 1 0 0 1 48 500 Tm (Architecture and decision pseudocode) Tj ET
+0.020 0.420 0.390 rg BT /F2 14 Tf 1 0 0 1 525 500 Tm (6) Tj ET
+0.840 0.880 0.890 rg 48 483 499 1 re f
+0.065 0.150 0.210 rg BT /F2 15 Tf 1 0 0 1 48 445 Tm (Timeline of delivery) Tj ET
+0.020 0.420 0.390 rg BT /F2 14 Tf 1 0 0 1 525 445 Tm (7) Tj ET
+0.840 0.880 0.890 rg 48 428 499 1 re f
+0.065 0.150 0.210 rg BT /F2 15 Tf 1 0 0 1 48 390 Tm (References and conclusion) Tj ET
+0.020 0.420 0.390 rg BT /F2 14 Tf 1 0 0 1 525 390 Tm (8) Tj ET
+0.840 0.880 0.890 rg 48 373 499 1 re f
+0.840 0.880 0.890 rg 48 60 499 1 re f
+0.310 0.370 0.430 rg BT /F2 8 Tf 1 0 0 1 48 43 Tm (NETDOCTOR   /   AIORI-3 PS-015) Tj ET
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 527 43 Tm (02) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 2228 >>
+stream
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 48 782 Tm (02 / PROBLEM) Tj ET
+0.065 0.150 0.210 rg BT /F2 29 Tf 1 0 0 1 48 741 Tm (Problem description) Tj ET
+0.840 0.880 0.890 rg 48 720 499 1 re f
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 685 Tm (The symptom does not tell you the cause) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 661 Tm (A resident can report that the Internet is slow, but a peak download result does) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 644 Tm (not distinguish a local link issue, a resolver failure, packet loss, or queue) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 627 Tm (delay under load.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 603 Tm (Signals that matter) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 579 Tm (Reachability, resolution, RTT and loss explain why a video call may fail even when) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 562 Tm (a speed test looks good.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 538 Tm (What can be established) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 514 Tm (A bounded test can show which observations support a likely cause. An ambiguous) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 497 Tm (snapshot should stay inconclusive.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 473 Tm (What must not be claimed) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 449 Tm (No unsupported attribution to radio interference, a damaged cable or the) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 432 Tm (provider's internal fault. Different access media need verified field labels) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 415 Tm (before comparing trends.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 391 Tm (Who benefits) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 367 Tm (Households get a next step; support receives a timestamped summary and a) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 350 Tm (repeatable measurement method rather than a vague report.) Tj ET
+0.840 0.880 0.890 rg 48 60 499 1 re f
+0.310 0.370 0.430 rg BT /F2 8 Tf 1 0 0 1 48 43 Tm (NETDOCTOR   /   AIORI-3 PS-015) Tj ET
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 527 43 Tm (03) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 2900 >>
+stream
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 48 782 Tm (03 / SOLUTION) Tj ET
+0.065 0.150 0.210 rg BT /F2 29 Tf 1 0 0 1 48 741 Tm (Solution proposed) Tj ET
+0.840 0.880 0.890 rg 48 720 499 1 re f
+0.910 0.965 0.952 rg 48 646 114 37 re f
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 56 660 Tm (01  Measure) Tj ET
+0.310 0.370 0.430 rg BT /F2 9 Tf 1 0 0 1 164 660 Tm (>) Tj ET
+0.910 0.965 0.952 rg 177 646 114 37 re f
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 185 660 Tm (02  Explain) Tj ET
+0.310 0.370 0.430 rg BT /F2 9 Tf 1 0 0 1 293 660 Tm (>) Tj ET
+0.910 0.965 0.952 rg 306 646 114 37 re f
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 314 660 Tm (03  Retest) Tj ET
+0.310 0.370 0.430 rg BT /F2 9 Tf 1 0 0 1 422 660 Tm (>) Tj ET
+0.910 0.965 0.952 rg 435 646 114 37 re f
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 443 660 Tm (04  Share) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 615 Tm (The Windows Electron desktop app is the primary diagnostic client. The Next.js and) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 598 Tm (Expo clients can read the same bounded Python service. Pick a Fault is the Windows) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 581 Tm (jury workflow: select a sealed card, inspect the independent verdict and evidence) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 564 Tm (while its condition stays hidden, reveal the condition, retest clean, and export.) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 547 Tm (Offline fixtures and read-only live probes stay separate.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 523 Tm (Escalation report template) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 55 499 Tm (- Run ID, UTC time, platform and measurement source) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 55 478 Tm (- Symptoms and access label; mark whether self-reported or verified) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 55 457 Tm (- Measurements with units, sample count, checks unavailable and their reasons) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 55 436 Tm (- Diagnosis or Inconclusive; supporting and conflicting observations) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 55 415 Tm (- Safe next action and comparable retest; export before sharing) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 375 Tm (Inconclusive example) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 351 Tm (Both DNS lookups respond, one HTTPS target fails, and the gateway ignores ICMP.) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 334 Tm (These tests do not locate the failure. Retry during symptoms, compare a wired or) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 317 Tm (second-device run if possible, and attach both reports.) Tj ET
+0.840 0.880 0.890 rg 48 60 499 1 re f
+0.310 0.370 0.430 rg BT /F2 8 Tf 1 0 0 1 48 43 Tm (NETDOCTOR   /   AIORI-3 PS-015) Tj ET
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 527 43 Tm (04) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 3553 >>
+stream
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 48 782 Tm (04 / EVALUATION) Tj ET
+0.065 0.150 0.210 rg BT /F2 29 Tf 1 0 0 1 48 741 Tm (Optimizations and evidence) Tj ET
+0.840 0.880 0.890 rg 48 720 499 1 re f
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 685 Tm (Each run uses independent control services, numbered packets and bounded payloads.) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 668 Tm (The fault lab never changes the operating system or touches an external target.) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 651 Tm (Removing the injected fault reruns the same instruments.) Tj ET
+0.910 0.965 0.952 rg 48 570 499 27 re f
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 57 579 Tm (CASE) Tj ET
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 188 579 Tm (BEFORE / CONTROL) Tj ET
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 349 579 Tm (AFTER / FAULT) Tj ET
+0.065 0.150 0.210 rg BT /F2 10 Tf 1 0 0 1 57 550 Tm (Gateway) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 188 550 Tm (TCP reply) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 349 550 Tm (No TCP reply) Tj ET
+0.840 0.880 0.890 rg 48 538 499 1 re f
+0.065 0.150 0.210 rg BT /F2 10 Tf 1 0 0 1 57 517 Tm (DNS) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 188 517 Tm (Positive A record) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 349 517 Tm (SERVFAIL) Tj ET
+0.840 0.880 0.890 rg 48 505 499 1 re f
+0.065 0.150 0.210 rg BT /F2 10 Tf 1 0 0 1 57 484 Tm (Packet return) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 188 484 Tm (10/10) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 349 484 Tm (7/10 returned) Tj ET
+0.840 0.880 0.890 rg 48 472 499 1 re f
+0.065 0.150 0.210 rg BT /F2 10 Tf 1 0 0 1 57 451 Tm (Loaded RTT) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 188 451 Tm (1.4 ms) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 349 451 Tm (304.1 ms) Tj ET
+0.840 0.880 0.890 rg 48 439 499 1 re f
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 387 Tm (Outcome) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 363 Tm (Prior baseline: 15/15 measured controls matched in 3 Windows rounds. It did not) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 346 Tm (include the compound or blind-flow cases. See the separate test report and raw) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 329 Tm (evidence for the current build.) Tj ET
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 48 309 Tm (Current lab: 30/30 measured, 30/30 measurement-only replay; compound 5/5.) Tj ET
+0.910 0.965 0.952 rg 48 265 114 37 re f
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 56 279 Tm (Baseline) Tj ET
+0.310 0.370 0.430 rg BT /F2 9 Tf 1 0 0 1 164 279 Tm (>) Tj ET
+0.910 0.965 0.952 rg 177 265 114 37 re f
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 185 279 Tm (Inject one fault) Tj ET
+0.310 0.370 0.430 rg BT /F2 9 Tf 1 0 0 1 293 279 Tm (>) Tj ET
+0.910 0.965 0.952 rg 306 265 114 37 re f
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 314 279 Tm (Compare signals) Tj ET
+0.310 0.370 0.430 rg BT /F2 9 Tf 1 0 0 1 422 279 Tm (>) Tj ET
+0.910 0.965 0.952 rg 435 265 114 37 re f
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 443 279 Tm (Clean retest) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 222 Tm (Compound or conflicting signals should yield Inconclusive instead of a forced) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 205 Tm (single cause. These measured loopback checks do not establish population accuracy.) Tj ET
+0.840 0.880 0.890 rg 48 60 499 1 re f
+0.310 0.370 0.430 rg BT /F2 8 Tf 1 0 0 1 48 43 Tm (NETDOCTOR   /   AIORI-3 PS-015) Tj ET
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 527 43 Tm (05) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 2864 >>
+stream
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 48 782 Tm (05 / DESIGN) Tj ET
+0.065 0.150 0.210 rg BT /F2 29 Tf 1 0 0 1 48 741 Tm (Architecture and rules) Tj ET
+0.840 0.880 0.890 rg 48 720 499 1 re f
+0.910 0.965 0.952 rg 48 641 114 37 re f
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 56 655 Tm (Desktop / web) Tj ET
+0.310 0.370 0.430 rg BT /F2 9 Tf 1 0 0 1 164 655 Tm (>) Tj ET
+0.910 0.965 0.952 rg 177 641 114 37 re f
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 185 655 Tm (Python service) Tj ET
+0.310 0.370 0.430 rg BT /F2 9 Tf 1 0 0 1 293 655 Tm (>) Tj ET
+0.910 0.965 0.952 rg 306 641 114 37 re f
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 314 655 Tm (Rule engine) Tj ET
+0.310 0.370 0.430 rg BT /F2 9 Tf 1 0 0 1 422 655 Tm (>) Tj ET
+0.910 0.965 0.952 rg 435 641 114 37 re f
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 443 655 Tm (Report / history) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 608 Tm (Electron, Next.js and Expo send a run request; the local Python agent measures a) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 591 Tm (fixture, the loopback lab or the host interface. Reports default to local storage.) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 574 Tm (Optional Firebase sync is owner-scoped and never required for the demo.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 550 Tm (Pseudocode for mentor demo) Tj ET
+0.910 0.965 0.952 rg 48 379 499 169 re f
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 58 526 Tm (observations = measure\(mode, consented_scope\)) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 58 508 Tm (if evidence_missing_or_conflicting: return INCONCLUSIVE) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 58 490 Tm (if gateway_unreachable and controls_pass: show GATEWAY) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 58 472 Tm (else if DNS_error and gateway_pass: show DNS) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 58 454 Tm (else if missing_numbered_packets: show LOSS) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 58 436 Tm (else if loaded_RTT - idle_RTT > lab_threshold: show CONGESTION) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 58 418 Tm (else: report NO_FAULT_OBSERVED if all required checks pass) Tj ET
+0.065 0.150 0.210 rg BT /F1 10 Tf 1 0 0 1 58 400 Tm (attach measurements, reasoning, limitations and retest link) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 341 Tm (These rules are scoped to the lab and are not universal ISP thresholds. Live mode) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 324 Tm (uses an independent, more conservative rule set. No report publishes local IPs,) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 307 Tm (Wi-Fi names, or hardware addresses.) Tj ET
+0.840 0.880 0.890 rg 48 60 499 1 re f
+0.310 0.370 0.430 rg BT /F2 8 Tf 1 0 0 1 48 43 Tm (NETDOCTOR   /   AIORI-3 PS-015) Tj ET
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 527 43 Tm (06) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 2223 >>
+stream
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 48 782 Tm (06 / DELIVERY) Tj ET
+0.065 0.150 0.210 rg BT /F2 29 Tf 1 0 0 1 48 741 Tm (Timeline of delivery) Tj ET
+0.840 0.880 0.890 rg 48 720 499 1 re f
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 685 Tm (01  Read and map the rubric) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 661 Tm (Extract the event PS and official report structure; use the desktop as the) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 644 Tm (reference client.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 600 Tm (02  Build measurements and interfaces) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 576 Tm (Add repeatable socket controls, live read-only checks, evidence views, retest, and) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 559 Tm (exports.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 515 Tm (03  Validate on Windows) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 491 Tm (Prior baseline: three rounds of five measured controls. Record blind cases,) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 474 Tm (compound ambiguity, retest and export separately; live checks remain read-only.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 430 Tm (04  Rehearse with the mentor) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 406 Tm (On Windows, let the jury choose a sealed case. Read the measured verdict and) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 389 Tm (evidence, reveal the condition, then compare a clean retest and export a redacted) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 372 Tm (support report.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 328 Tm (05  Before submission) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 304 Tm (Confirm the official team name and repository destination. Cross-check the) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 287 Tm (separate test record before quoting results. Gemini is optional; no live key is) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 270 Tm (assumed.) Tj ET
+0.840 0.880 0.890 rg 48 60 499 1 re f
+0.310 0.370 0.430 rg BT /F2 8 Tf 1 0 0 1 48 43 Tm (NETDOCTOR   /   AIORI-3 PS-015) Tj ET
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 527 43 Tm (07) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 1901 >>
+stream
+0.020 0.420 0.390 rg BT /F2 10 Tf 1 0 0 1 48 782 Tm (07 / NEXT STEPS) Tj ET
+0.065 0.150 0.210 rg BT /F2 29 Tf 1 0 0 1 48 741 Tm (References and conclusion) Tj ET
+0.840 0.880 0.890 rg 48 720 499 1 re f
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 685 Tm (References) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 661 Tm (AIORI-3 Hackathon index and official PS-015 problem statement PDF.) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 637 Tm (AIORI Proposed-structure-hackathon.pdf and regional venue guidelines.) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 613 Tm (RFC 2330, Framework for IP Performance Metrics, RFC Editor.) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 589 Tm (Python standard library; Next.js; Electron; Expo; Firebase.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 543 Tm (Conclusion) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 519 Tm (NetDoctor gives someone with a slow connection a defensible next step, not a) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 502 Tm (speculative root cause. The four controlled fault conditions can be demonstrated) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 485 Tm (locally and separated from uncategorized field evidence.) Tj ET
+0.065 0.150 0.210 rg BT /F2 14 Tf 1 0 0 1 48 448 Tm (Next validation) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 424 Tm (The field pilot is a design only; no volunteer endpoints yet. Obtain consent,) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 407 Tm (verify access media, repeat measurements, and document the endpoint and traffic) Tj ET
+0.310 0.370 0.430 rg BT /F1 11 Tf 1 0 0 1 48 390 Tm (budget before measuring broadband throughput or loaded latency.) Tj ET
+0.840 0.880 0.890 rg 48 60 499 1 re f
+0.310 0.370 0.430 rg BT /F2 8 Tf 1 0 0 1 48 43 Tm (NETDOCTOR   /   AIORI-3 PS-015) Tj ET
+0.020 0.420 0.390 rg BT /F2 9 Tf 1 0 0 1 527 43 Tm (08) Tj ET
+endstream
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000168 00000 n 
+0000000265 00000 n 
+0000000367 00000 n 
+0000000503 00000 n 
+0000001648 00000 n 
+0000001784 00000 n 
+0000003360 00000 n 
+0000003497 00000 n 
+0000005778 00000 n 
+0000005916 00000 n 
+0000008869 00000 n 
+0000009007 00000 n 
+0000012613 00000 n 
+0000012751 00000 n 
+0000015668 00000 n 
+0000015806 00000 n 
+0000018082 00000 n 
+0000018220 00000 n 
+trailer
+<< /Size 21 /Root 1 0 R >>
+startxref
+20174
+%%EOF

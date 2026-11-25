@@ -1,0 +1,16 @@
+node_modules/
+.next/
+.expo/
+dist/
+out/
+__pycache__/
+*.py[cod]
+.env*
+!.env.example
+pdf-tools/
+
+.netdoctor-previous-*/
+.netdoctor-build-*/
+/desktop/release/
+/android/archive-jury-*/
+/web/archive-jury-*/

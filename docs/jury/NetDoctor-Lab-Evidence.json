@@ -1,0 +1,1031 @@
+{
+  "evaluated_at": "2026-11-24T20:06:26.654598+00:00",
+  "environment": "Windows",
+  "rounds": 5,
+  "order_seed": 150,
+  "recorded_runs": [
+    {
+      "round": 1,
+      "case": "ambiguous",
+      "expected": "inconclusive",
+      "actual": "inconclusive",
+      "matched": true,
+      "report_id": "96bbab67-a581-4e43-99f8-3aa07f441d13",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 1027.3,
+      "raw": {
+        "gateway_ms": null,
+        "dns_ms": 0.342,
+        "dns_status": "SERVFAIL",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          13.188,
+          15.97,
+          15.926
+        ],
+        "loaded_rtt_ms": [
+          1.244,
+          1.634,
+          1.553
+        ],
+        "idle_ms": 15.926,
+        "loaded_ms": 1.553,
+        "loaded_jitter_ms": 0.39,
+        "throughput_mbps": 13.567,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 1,
+      "case": "congestion",
+      "expected": "congestion",
+      "actual": "congestion",
+      "matched": true,
+      "report_id": "45d2f191-561f-4990-8082-1797dbd39aae",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 320.6,
+      "raw": {
+        "gateway_ms": 12.299,
+        "dns_ms": 0.19,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          0.384,
+          0.358,
+          0.528
+        ],
+        "loaded_rtt_ms": [
+          302.748,
+          302.71,
+          302.596
+        ],
+        "idle_ms": 0.384,
+        "loaded_ms": 302.71,
+        "loaded_jitter_ms": 0.152,
+        "throughput_mbps": 14.268,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 1,
+      "case": "control",
+      "expected": "healthy",
+      "actual": "healthy",
+      "matched": true,
+      "report_id": "8f752799-d2b3-4ad7-bf14-8c7a32e57612",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 328.2,
+      "raw": {
+        "gateway_ms": 0.392,
+        "dns_ms": 0.251,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          0.569,
+          18.418,
+          0.619
+        ],
+        "loaded_rtt_ms": [
+          0.459,
+          0.629,
+          0.802
+        ],
+        "idle_ms": 0.619,
+        "loaded_ms": 0.629,
+        "loaded_jitter_ms": 0.343,
+        "throughput_mbps": 14.204,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 1,
+      "case": "gateway",
+      "expected": "gateway_unreachable",
+      "actual": "gateway_unreachable",
+      "matched": true,
+      "report_id": "c63a365c-bd98-4b47-a4de-d591cf5c24f5",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 966.4,
+      "raw": {
+        "gateway_ms": null,
+        "dns_ms": 0.236,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          0.392,
+          0.347,
+          0.35
+        ],
+        "loaded_rtt_ms": [
+          0.421,
+          0.762,
+          0.46
+        ],
+        "idle_ms": 0.35,
+        "loaded_ms": 0.46,
+        "loaded_jitter_ms": 0.341,
+        "throughput_mbps": 14.195,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 1,
+      "case": "packet_loss",
+      "expected": "packet_loss",
+      "actual": "packet_loss",
+      "matched": true,
+      "report_id": "2cec1148-5e56-4e63-9c4c-c25fe09417fb",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 629.8,
+      "raw": {
+        "gateway_ms": 22.342,
+        "dns_ms": 0.207,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 7,
+        "loss_pct": 30.0,
+        "idle_rtt_ms": [
+          1.018,
+          0.765,
+          12.152
+        ],
+        "loaded_rtt_ms": [
+          0.416,
+          1.074,
+          1.233
+        ],
+        "idle_ms": 1.018,
+        "loaded_ms": 1.074,
+        "loaded_jitter_ms": 0.817,
+        "throughput_mbps": 14.208,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 1,
+      "case": "dns",
+      "expected": "dns",
+      "actual": "dns",
+      "matched": true,
+      "report_id": "695ce1ff-804b-4621-986c-feb6f9501362",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 332.3,
+      "raw": {
+        "gateway_ms": 0.386,
+        "dns_ms": 0.171,
+        "dns_status": "SERVFAIL",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          0.416,
+          23.196,
+          0.568
+        ],
+        "loaded_rtt_ms": [
+          14.329,
+          0.548,
+          0.548
+        ],
+        "idle_ms": 0.568,
+        "loaded_ms": 0.548,
+        "loaded_jitter_ms": 13.781,
+        "throughput_mbps": 14.2,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 2,
+      "case": "dns",
+      "expected": "dns",
+      "actual": "dns",
+      "matched": true,
+      "report_id": "5a67fda8-091f-4609-9d05-155a50ced4fd",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 345.5,
+      "raw": {
+        "gateway_ms": 0.328,
+        "dns_ms": 0.162,
+        "dns_status": "SERVFAIL",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          0.378,
+          23.01,
+          14.936
+        ],
+        "loaded_rtt_ms": [
+          0.533,
+          0.639,
+          0.705
+        ],
+        "idle_ms": 14.936,
+        "loaded_ms": 0.639,
+        "loaded_jitter_ms": 0.172,
+        "throughput_mbps": 14.226,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 2,
+      "case": "control",
+      "expected": "healthy",
+      "actual": "healthy",
+      "matched": true,
+      "report_id": "c5f4ab74-6920-4a81-8b77-8241da8d0926",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 397.5,
+      "raw": {
+        "gateway_ms": 9.413,
+        "dns_ms": 0.133,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          14.284,
+          16.3,
+          15.516
+        ],
+        "loaded_rtt_ms": [
+          2.768,
+          3.455,
+          3.765
+        ],
+        "idle_ms": 15.516,
+        "loaded_ms": 3.455,
+        "loaded_jitter_ms": 0.997,
+        "throughput_mbps": 12.772,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 2,
+      "case": "ambiguous",
+      "expected": "inconclusive",
+      "actual": "inconclusive",
+      "matched": true,
+      "report_id": "d5f9dfd6-dce0-4f5d-9227-ef56b4b8785b",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 968.4,
+      "raw": {
+        "gateway_ms": null,
+        "dns_ms": 0.234,
+        "dns_status": "SERVFAIL",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          0.379,
+          0.349,
+          0.354
+        ],
+        "loaded_rtt_ms": [
+          0.487,
+          0.601,
+          0.61
+        ],
+        "idle_ms": 0.354,
+        "loaded_ms": 0.601,
+        "loaded_jitter_ms": 0.123,
+        "throughput_mbps": 14.232,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 2,
+      "case": "congestion",
+      "expected": "congestion",
+      "actual": "congestion",
+      "matched": true,
+      "report_id": "9adda61f-d055-471c-ba00-6582be5ab569",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 312.1,
+      "raw": {
+        "gateway_ms": 0.752,
+        "dns_ms": 0.206,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          0.333,
+          0.338,
+          0.316
+        ],
+        "loaded_rtt_ms": [
+          305.782,
+          305.576,
+          304.533
+        ],
+        "idle_ms": 0.333,
+        "loaded_ms": 305.576,
+        "loaded_jitter_ms": 1.249,
+        "throughput_mbps": 14.181,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 2,
+      "case": "gateway",
+      "expected": "gateway_unreachable",
+      "actual": "gateway_unreachable",
+      "matched": true,
+      "report_id": "06137dd3-051e-445d-98dc-7045049a5c3b",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 963.0,
+      "raw": {
+        "gateway_ms": null,
+        "dns_ms": 0.232,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          0.435,
+          0.368,
+          0.352
+        ],
+        "loaded_rtt_ms": [
+          0.51,
+          0.756,
+          0.785
+        ],
+        "idle_ms": 0.368,
+        "loaded_ms": 0.756,
+        "loaded_jitter_ms": 0.275,
+        "throughput_mbps": 14.262,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 2,
+      "case": "packet_loss",
+      "expected": "packet_loss",
+      "actual": "packet_loss",
+      "matched": true,
+      "report_id": "9caa583f-7f26-4be8-8e71-38d9483a2bb6",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 619.0,
+      "raw": {
+        "gateway_ms": 0.287,
+        "dns_ms": 0.156,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 7,
+        "loss_pct": 30.0,
+        "idle_rtt_ms": [
+          13.046,
+          2.254,
+          2.027
+        ],
+        "loaded_rtt_ms": [
+          2.266,
+          3.937,
+          21.355
+        ],
+        "idle_ms": 2.254,
+        "loaded_ms": 3.937,
+        "loaded_jitter_ms": 19.089,
+        "throughput_mbps": 14.121,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 3,
+      "case": "control",
+      "expected": "healthy",
+      "actual": "healthy",
+      "matched": true,
+      "report_id": "f7b2024a-69b3-4245-be06-39c67586fa99",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 370.0,
+      "raw": {
+        "gateway_ms": 0.442,
+        "dns_ms": 0.187,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          15.5,
+          15.548,
+          15.444
+        ],
+        "loaded_rtt_ms": [
+          0.734,
+          0.856,
+          0.974
+        ],
+        "idle_ms": 15.5,
+        "loaded_ms": 0.856,
+        "loaded_jitter_ms": 0.24,
+        "throughput_mbps": 13.536,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 3,
+      "case": "packet_loss",
+      "expected": "packet_loss",
+      "actual": "packet_loss",
+      "matched": true,
+      "report_id": "ad57563a-9c4b-4891-9d4b-407aade6591e",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 665.5,
+      "raw": {
+        "gateway_ms": 0.416,
+        "dns_ms": 0.231,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 7,
+        "loss_pct": 30.0,
+        "idle_rtt_ms": [
+          15.127,
+          15.966,
+          15.926
+        ],
+        "loaded_rtt_ms": [
+          0.708,
+          0.705,
+          0.615
+        ],
+        "idle_ms": 15.926,
+        "loaded_ms": 0.705,
+        "loaded_jitter_ms": 0.093,
+        "throughput_mbps": 13.556,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 3,
+      "case": "gateway",
+      "expected": "gateway_unreachable",
+      "actual": "gateway_unreachable",
+      "matched": true,
+      "report_id": "4e3d3cfa-2915-498c-814e-083e5720ee3e",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 978.4,
+      "raw": {
+        "gateway_ms": null,
+        "dns_ms": 0.927,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          2.261,
+          2.252,
+          2.203
+        ],
+        "loaded_rtt_ms": [
+          2.56,
+          2.6,
+          2.684
+        ],
+        "idle_ms": 2.252,
+        "loaded_ms": 2.6,
+        "loaded_jitter_ms": 0.124,
+        "throughput_mbps": 14.15,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 3,
+      "case": "congestion",
+      "expected": "congestion",
+      "actual": "congestion",
+      "matched": true,
+      "report_id": "86071ad0-fc16-4294-95ce-8e2839f7a9b3",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 386.3,
+      "raw": {
+        "gateway_ms": 18.928,
+        "dns_ms": 0.803,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          22.002,
+          2.068,
+          12.763
+        ],
+        "loaded_rtt_ms": [
+          302.166,
+          301.677,
+          301.107
+        ],
+        "idle_ms": 12.763,
+        "loaded_ms": 301.677,
+        "loaded_jitter_ms": 1.059,
+        "throughput_mbps": 13.601,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 3,
+      "case": "dns",
+      "expected": "dns",
+      "actual": "dns",
+      "matched": true,
+      "report_id": "0b5f0cba-5bfb-4e66-9a24-ebf62134b27e",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 387.8,
+      "raw": {
+        "gateway_ms": 20.777,
+        "dns_ms": 0.282,
+        "dns_status": "SERVFAIL",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          12.795,
+          14.825,
+          16.087
+        ],
+        "loaded_rtt_ms": [
+          3.139,
+          4.266,
+          4.158
+        ],
+        "idle_ms": 14.825,
+        "loaded_ms": 4.158,
+        "loaded_jitter_ms": 1.127,
+        "throughput_mbps": 13.641,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 3,
+      "case": "ambiguous",
+      "expected": "inconclusive",
+      "actual": "inconclusive",
+      "matched": true,
+      "report_id": "d7675958-8fbc-4ca3-9fb0-20c2727c9702",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 1004.3,
+      "raw": {
+        "gateway_ms": null,
+        "dns_ms": 0.948,
+        "dns_status": "SERVFAIL",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          2.048,
+          18.145,
+          2.143
+        ],
+        "loaded_rtt_ms": [
+          2.81,
+          3.017,
+          2.647
+        ],
+        "idle_ms": 2.143,
+        "loaded_ms": 2.81,
+        "loaded_jitter_ms": 0.37,
+        "throughput_mbps": 14.09,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 4,
+      "case": "dns",
+      "expected": "dns",
+      "actual": "dns",
+      "matched": true,
+      "report_id": "f3a3f40b-c9f1-4791-b517-7fdccd7ee6cb",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 357.5,
+      "raw": {
+        "gateway_ms": 17.208,
+        "dns_ms": 0.56,
+        "dns_status": "SERVFAIL",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          24.967,
+          0.898,
+          0.732
+        ],
+        "loaded_rtt_ms": [
+          0.959,
+          1.57,
+          1.76
+        ],
+        "idle_ms": 0.898,
+        "loaded_ms": 1.57,
+        "loaded_jitter_ms": 0.801,
+        "throughput_mbps": 14.213,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 4,
+      "case": "ambiguous",
+      "expected": "inconclusive",
+      "actual": "inconclusive",
+      "matched": true,
+      "report_id": "0e9a485c-c3eb-4f71-82be-fe3c063e3f0d",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 1032.4,
+      "raw": {
+        "gateway_ms": null,
+        "dns_ms": 0.196,
+        "dns_status": "SERVFAIL",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          13.514,
+          15.143,
+          15.824
+        ],
+        "loaded_rtt_ms": [
+          0.775,
+          0.868,
+          0.779
+        ],
+        "idle_ms": 15.143,
+        "loaded_ms": 0.779,
+        "loaded_jitter_ms": 0.093,
+        "throughput_mbps": 13.514,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 4,
+      "case": "congestion",
+      "expected": "congestion",
+      "actual": "congestion",
+      "matched": true,
+      "report_id": "f516f414-b4bb-449f-94e6-7686621c877a",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 323.3,
+      "raw": {
+        "gateway_ms": 1.387,
+        "dns_ms": 0.641,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          1.622,
+          1.42,
+          1.604
+        ],
+        "loaded_rtt_ms": [
+          303.624,
+          303.52,
+          303.508
+        ],
+        "idle_ms": 1.604,
+        "loaded_ms": 303.52,
+        "loaded_jitter_ms": 0.116,
+        "throughput_mbps": 14.135,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 4,
+      "case": "gateway",
+      "expected": "gateway_unreachable",
+      "actual": "gateway_unreachable",
+      "matched": true,
+      "report_id": "20fa230d-eac6-4578-a171-f22e19903549",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 1033.2,
+      "raw": {
+        "gateway_ms": null,
+        "dns_ms": 0.897,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          22.574,
+          2.138,
+          2.138
+        ],
+        "loaded_rtt_ms": [
+          2.7,
+          3.091,
+          2.578
+        ],
+        "idle_ms": 2.138,
+        "loaded_ms": 2.7,
+        "loaded_jitter_ms": 0.513,
+        "throughput_mbps": 13.023,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 4,
+      "case": "control",
+      "expected": "healthy",
+      "actual": "healthy",
+      "matched": true,
+      "report_id": "f480ef6e-e082-4d3c-9996-f4d64991a6b6",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 320.2,
+      "raw": {
+        "gateway_ms": 1.302,
+        "dns_ms": 0.658,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          1.623,
+          1.655,
+          1.561
+        ],
+        "loaded_rtt_ms": [
+          2.132,
+          2.401,
+          2.793
+        ],
+        "idle_ms": 1.623,
+        "loaded_ms": 2.401,
+        "loaded_jitter_ms": 0.661,
+        "throughput_mbps": 14.256,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 4,
+      "case": "packet_loss",
+      "expected": "packet_loss",
+      "actual": "packet_loss",
+      "matched": true,
+      "report_id": "dad63134-4d9a-4dcf-aea2-442cd4774a5d",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 692.8,
+      "raw": {
+        "gateway_ms": 25.68,
+        "dns_ms": 0.909,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 7,
+        "loss_pct": 30.0,
+        "idle_rtt_ms": [
+          13.232,
+          15.746,
+          16.269
+        ],
+        "loaded_rtt_ms": [
+          2.042,
+          2.302,
+          2.054
+        ],
+        "idle_ms": 15.746,
+        "loaded_ms": 2.054,
+        "loaded_jitter_ms": 0.26,
+        "throughput_mbps": 13.475,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 5,
+      "case": "congestion",
+      "expected": "congestion",
+      "actual": "congestion",
+      "matched": true,
+      "report_id": "18966540-5f28-44dc-a0b7-051cd956d64f",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 322.8,
+      "raw": {
+        "gateway_ms": 1.251,
+        "dns_ms": 0.722,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          1.497,
+          1.396,
+          1.262
+        ],
+        "loaded_rtt_ms": [
+          304.374,
+          304.718,
+          304.067
+        ],
+        "idle_ms": 1.396,
+        "loaded_ms": 304.374,
+        "loaded_jitter_ms": 0.651,
+        "throughput_mbps": 14.094,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 5,
+      "case": "packet_loss",
+      "expected": "packet_loss",
+      "actual": "packet_loss",
+      "matched": true,
+      "report_id": "7886733e-ef69-48ad-a754-618056739ed4",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 660.1,
+      "raw": {
+        "gateway_ms": 25.012,
+        "dns_ms": 0.699,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 7,
+        "loss_pct": 30.0,
+        "idle_rtt_ms": [
+          13.353,
+          2.106,
+          13.165
+        ],
+        "loaded_rtt_ms": [
+          2.905,
+          3.23,
+          2.901
+        ],
+        "idle_ms": 13.165,
+        "loaded_ms": 2.905,
+        "loaded_jitter_ms": 0.329,
+        "throughput_mbps": 14.138,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 5,
+      "case": "gateway",
+      "expected": "gateway_unreachable",
+      "actual": "gateway_unreachable",
+      "matched": true,
+      "report_id": "0a7c9ff3-786a-49e9-b714-7fe412b1853c",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 977.9,
+      "raw": {
+        "gateway_ms": null,
+        "dns_ms": 0.865,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          1.995,
+          2.069,
+          1.94
+        ],
+        "loaded_rtt_ms": [
+          2.489,
+          2.923,
+          2.422
+        ],
+        "idle_ms": 1.995,
+        "loaded_ms": 2.489,
+        "loaded_jitter_ms": 0.501,
+        "throughput_mbps": 14.218,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 5,
+      "case": "ambiguous",
+      "expected": "inconclusive",
+      "actual": "inconclusive",
+      "matched": true,
+      "report_id": "3aaba020-3073-4ee3-9a69-7d5211d2db28",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 1037.4,
+      "raw": {
+        "gateway_ms": null,
+        "dns_ms": 0.988,
+        "dns_status": "SERVFAIL",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          21.855,
+          15.495,
+          15.175
+        ],
+        "loaded_rtt_ms": [
+          1.584,
+          15.107,
+          1.564
+        ],
+        "idle_ms": 15.495,
+        "loaded_ms": 1.584,
+        "loaded_jitter_ms": 13.543,
+        "throughput_mbps": 13.554,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 5,
+      "case": "control",
+      "expected": "healthy",
+      "actual": "healthy",
+      "matched": true,
+      "report_id": "624d3afe-dbea-4f33-b51e-775a73b39099",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 369.3,
+      "raw": {
+        "gateway_ms": 22.551,
+        "dns_ms": 0.716,
+        "dns_status": "response",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          23.176,
+          2.143,
+          2.391
+        ],
+        "loaded_rtt_ms": [
+          3.195,
+          3.119,
+          3.55
+        ],
+        "idle_ms": 2.391,
+        "loaded_ms": 3.195,
+        "loaded_jitter_ms": 0.431,
+        "throughput_mbps": 14.07,
+        "bytes": 524288
+      }
+    },
+    {
+      "round": 5,
+      "case": "dns",
+      "expected": "dns",
+      "actual": "dns",
+      "matched": true,
+      "report_id": "3df04cc7-8459-4f81-aa7a-9346102b076f",
+      "source": "controlled-loopback",
+      "measurement_only_replay_matches": true,
+      "duration_ms": 408.5,
+      "raw": {
+        "gateway_ms": 25.652,
+        "dns_ms": 0.767,
+        "dns_status": "SERVFAIL",
+        "sent": 10,
+        "received": 10,
+        "loss_pct": 0.0,
+        "idle_rtt_ms": [
+          22.577,
+          15.206,
+          15.327
+        ],
+        "loaded_rtt_ms": [
+          2.837,
+          3.342,
+          3.79
+        ],
+        "idle_ms": 15.327,
+        "loaded_ms": 3.342,
+        "loaded_jitter_ms": 0.953,
+        "throughput_mbps": 13.596,
+        "bytes": 524288
+      }
+    }
+  ],
+  "median_duration_ms": 513.8,
+  "passed": 30,
+  "total": 30
+}

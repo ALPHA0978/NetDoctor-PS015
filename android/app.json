@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "NetDoctor",
+    "slug": "netdoctor-ps015",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.novonixsoft.netdoctor",
+      "allowBackup": false
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
+  }
+}
