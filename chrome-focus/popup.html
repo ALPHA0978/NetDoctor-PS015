@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NetDoctor Tab Priority</title>
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="dropdown.css">
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <header>
+    <p>NetDoctor</p>
+    <h1>Tab tools</h1>
+  </header>
+  <main>
+    <section class="tab-diagnostic" aria-labelledby="diagnostic-title">
+      <h2 id="diagnostic-title">Tab diagnostic</h2>
+      <p id="diagnostic-status" role="status">Record requests while reproducing the slowdown.</p>
+      <button id="diagnostic-toggle" type="button" disabled>Diagnose this tab</button>
+      <div id="diagnostic-results"></div>
+    </section>
+    <section id="setup">
+      <div class="priority"><small>Priority tab</small><strong id="priority-title">Getting current tab…</strong></div>
+      <fieldset>
+        <legend>Tabs to limit</legend>
+        <div id="competitors"></div>
+      </fieldset>
+      <label class="rate" for="limit">Limit per tab, each direction
+        <select id="limit"><option value="0.5">0.5 Mbps</option><option value="1" selected>1 Mbps</option><option value="2">2 Mbps</option></select>
+      </label>
+      <button id="start" type="button" disabled>Apply limits for 15 minutes</button>
+    </section>
+    <section id="active" hidden>
+      <div class="priority"><small>Priority tab</small><strong id="active-title"></strong></div>
+      <p id="summary"></p>
+      <button id="stop" type="button">Stop and restore tabs</button>
+    </section>
+    <p id="status" role="status"></p>
+  </main>
+</body>
+</html>

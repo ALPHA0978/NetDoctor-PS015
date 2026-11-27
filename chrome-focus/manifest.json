@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "NetDoctor Tab Priority",
+  "version": "1.0.0",
+  "description": "Limit selected Chrome tabs while you work in a priority tab.",
+  "permissions": ["tabs", "debugger", "storage", "alarms"],
+  "action": { "default_popup": "popup.html" },
+  "background": { "service_worker": "worker.js" }
+}

@@ -1,6 +1,7 @@
 @echo off
 setlocal
 cd /d "%~dp0"
+if not defined NETDOCTOR_GEMINI_KEY_FILE set "NETDOCTOR_GEMINI_KEY_FILE=%~dp0.env.gemini.dpapi"
 set "APP=%~dp0desktop\release\NetDoctor-win-x64\NetDoctor.exe"
 if /i "%PROCESSOR_ARCHITECTURE%"=="ARM64" if exist "%~dp0desktop\release\NetDoctor-win-arm64\NetDoctor.exe" set "APP=%~dp0desktop\release\NetDoctor-win-arm64\NetDoctor.exe"
 where python.exe >nul 2>nul

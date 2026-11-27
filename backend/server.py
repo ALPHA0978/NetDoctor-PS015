@@ -59,8 +59,10 @@ class Handler(BaseHTTPRequestHandler):
      return self.send_json(400,{"error":"A measured run ID and explicit permission are required."})
     try:return self.send_json(200,gemini_evidence.explain(body["run_id"]))
     except KeyError:return self.send_json(404,{"error":"Run a new measured check on this PC before asking Gemini."})
+    except gemini_evidence.GeminiError as e:
+     return self.send_json(502,{"error":str(e),"code":e.code})
     except (ValueError,OSError,RuntimeError,AttributeError,TypeError,http.client.HTTPException):
-     return self.send_json(502,{"error":"Gemini did not return a usable explanation. Your measured result is unchanged."})
+     return self.send_json(502,{"error":"Gemini returned an invalid explanation. Try again.","code":"invalid_output"})
    if not isinstance(body,dict) or set(body)-{"mode","scenario","access"} or any(not isinstance(v,str) for v in body.values()):
     raise ValueError("Only string mode, scenario and access fields are supported.")
    if not running.acquire(blocking=False): return self.send_json(429,{"error":"Measurements busy. Try again when the current check finishes."})

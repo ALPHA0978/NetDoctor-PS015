@@ -38,8 +38,24 @@ class EvidenceTests(unittest.TestCase):
    args,kwargs=exchange.request.call_args
    self.assertEqual(args,("POST","/v1beta/interactions"))
    self.assertEqual(kwargs["headers"]["x-goog-api-key"],"test-key")
-   self.assertIs(json.loads(kwargs["body"])["store"],False)
+   payload=json.loads(kwargs["body"])
+   self.assertIs(payload["store"],False)
+   self.assertEqual(payload["model"],"gemini-3.8-flash")
+   self.assertEqual(payload["generation_config"],{"thinking_level":"low","max_output_tokens":2048})
    self.assertNotIn(self.report["id"],kwargs["body"].decode())
+ def test_provider_errors_use_safe_messages(self):
+  error={"error":{"message":"sensitive provider text","details":[{"reason":"API_KEY_INVALID"}]}}
+  with patch.dict(os.environ,{"GEMINI_API_KEY":"test-key"}),patch.object(ai.http.client,"HTTPSConnection") as conn:
+   response=conn.return_value.getresponse.return_value
+   response.status=400
+   response.read.return_value=json.dumps(error).encode()
+   with self.assertRaises(ai.GeminiError) as failure:ai.rank(ai.public_snapshot(self.report))
+   self.assertEqual(failure.exception.code,"invalid_key")
+   self.assertNotIn("sensitive provider text",str(failure.exception))
+   response.status=200
+   response.read.return_value=b'{"status":"incomplete","steps":[]}'
+   with self.assertRaises(ai.GeminiError) as failure:ai.rank(ai.public_snapshot(self.report))
+   self.assertEqual(failure.exception.code,"incomplete")
  def test_synthetic_report_cannot_be_explained(self):
   r=server.outcome({"mode":"demo","scenario":"healthy"})
   ai.record(r)

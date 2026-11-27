@@ -18,6 +18,8 @@ async function waitFor(wc,condition,tries=100){
 }
 let initialized=false;
 process.env.NETDOCTOR_DESKTOP_SMOKE='1';
+delete process.env.GEMINI_API_KEY;
+process.env.NETDOCTOR_GEMINI_KEY_FILE=path.join(profile,'absent-key.dpapi');
 dialog.showSaveDialog=async (_win,options)=>({canceled:false,filePath:path.join(dir,options.defaultPath)});
 app.on('browser-window-created',(_event,win)=>{
  if(initialized)return;initialized=true;
@@ -62,7 +64,7 @@ app.on('browser-window-created',(_event,win)=>{
      const providerButton=await script(wc,'[...document.querySelectorAll(".ai-evidence button")].some(x=>x.textContent==="Share readings and explain")');
      assert.equal(providerButton,true);
      await script(wc,'document.querySelector(".ai-evidence button").click()');
-     await waitFor(wc,'document.querySelector(".ai-evidence [role=status]").innerText.includes("not configured")',50);
+     await waitFor(wc,'/Gemini key unavailable|no Gemini key/.test(document.querySelector(".ai-evidence [role=status]").innerText)',50);
      const clean=await script(wc,'JSON.parse(localStorage.getItem("netdoctor.desktop.history.v1"))[0]');
      assert.equal(clean.scenario,'control');
      assert.equal(clean.diagnosis.code,'healthy');

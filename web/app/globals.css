@@ -2,7 +2,10 @@
 @layer reset{
 :root{color-scheme:light;--paper:#f5f7f6;--white:#fff;--ink:#132a26;--sub:#536763;--line:#e1e8e5;--mint:#d8f4e9;--green:#09634e;--green-d:#064c3b;--warn:#946124;--radius:17px;--shadow:0 4px 14px #11251f08}
 *,*::before,*::after{box-sizing:border-box}
+*{scrollbar-width:none}
+*::-webkit-scrollbar{display:none}
 html{scroll-behavior:smooth}
+:root{--dropdown-surface:var(--white);--dropdown-text:var(--ink);--dropdown-border:var(--line);--dropdown-highlight:var(--accent-surface);--dropdown-accent:var(--accent-blue)}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,"Segoe UI",ui-sans-serif,system-ui,-apple-system,sans-serif;font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased}
 h1,h2,h3,p{margin:0}
 a{color:inherit;text-decoration:none}

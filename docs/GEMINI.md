@@ -2,10 +2,10 @@
 
 Gemini is optional and disabled until a key is available to the local Python process. Obtain a dedicated Gemini API key in Google AI Studio. Never paste it into chat, source control, the browser, mobile config, or screenshots. From this directory in Windows PowerShell:
 
-    powershell -File Run-Gemini-Demo.ps1 -App Desktop
-    powershell -File Run-Gemini-Demo.ps1 -App Web
+    powershell -File Run-Gemini-Demo.ps1 -SetKey
+    .\Run-NetDoctor.cmd
 
-Pick only one at a time. The helper prompts without echoing the key. It keeps the key in the launched process environment, not in a file or the command line. Close the app and collector to discard it. The regular launchers run without an AI key.
+The setup prompts without echoing the key and saves it in a Windows-encrypted file for the current account. The desktop starts a dedicated Python service on a free loopback port and passes the key to that service. For the web demo, use `powershell -File Run-Gemini-Demo.ps1 -App Web`.
 
 Run a new measured Lab or Live check on Raj and choose **Share readings and explain**. The server sends only whitelisted measurement IDs, states, values, the decision code and locally defined next steps. No raw addresses, names, report ID, timestamps, logs or notes are sent. The provider still processes the request under its policies. We request stateless operation and do not enable tools, search, external links or action execution. API usage may incur fees or be limited by quotas.
 

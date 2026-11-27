@@ -1,0 +1,28 @@
+:root { color-scheme: dark; font: 14px/1.4 system-ui, sans-serif; background: #0a131c; color: #f0f5fb; --dropdown-surface: #162532; --dropdown-text: #f0f5fb; --dropdown-border: #2b4051; --dropdown-highlight: #1c3c52; --dropdown-accent: #83d1ee; }
+* { box-sizing: border-box; scrollbar-width: none; }
+*::-webkit-scrollbar { display: none; }
+body { width: 350px; margin: 0; }
+header, main { padding: 13px 16px; }
+header { border-bottom: 1px solid #2b4051; }
+header p { color: #83d1ee; font-size: .78rem; font-weight: 650; }
+h1, p { margin: 0; }
+h1 { font-size: 1.45rem; letter-spacing: -.025em; }
+.priority { padding: 9px 10px; background: #162532; border: 1px solid #2b4051; border-radius: 8px; }
+.priority small, .priority strong { display: block; overflow-wrap: anywhere; }
+.priority small, .rate, #status, #summary { color: #abbccc; }
+fieldset { min-width: 0; margin: 12px 0; padding: 0; border: 0; }
+legend { font-weight: 650; margin-bottom: 5px; }
+#competitors { max-height: 170px; overflow: auto; }
+#competitors label { display: flex; align-items: flex-start; gap: 6px; padding: 5px 0; overflow-wrap: anywhere; }
+.rate { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+select, button { font: inherit; border: 1px solid #2b4051; border-radius: 6px; padding: 5px 8px; }
+button { width: 100%; margin-top: 10px; background: #146490; color: white; font-weight: 650; cursor: pointer; }
+button:disabled { opacity: .55; cursor: default; }
+#summary { margin-top: 8px; }
+#status:not(:empty) { margin-top: 8px; font-size: .83rem; }
+:focus-visible { outline: 2px solid #83d1ee; outline-offset: 2px; }
+.tab-diagnostic { margin-bottom: 14px; padding-bottom: 13px; border-bottom: 1px solid #2b4051; }
+.tab-diagnostic h2 { margin: 0 0 3px; font-size: 1rem; }
+#diagnostic-status, #diagnostic-results { color: #abbccc; font-size: .83rem; }
+#diagnostic-results p, #diagnostic-results li { margin-top: 6px; }
+#diagnostic-results ol { padding-left: 19px; overflow-wrap: anywhere; }

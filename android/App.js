@@ -141,7 +141,13 @@ function AppContent(){
         <Txt style={st.hint}>{theme==='dark'?'Light':'Dark'}</Txt>
       </Pressable>
     </View>
-    <ScrollView ref={scroll} contentContainerStyle={st.scroll} keyboardShouldPersistTaps="handled">
+    <ScrollView
+      ref={scroll}
+      contentContainerStyle={st.scroll}
+      keyboardShouldPersistTaps="handled"
+      showsVerticalScrollIndicator={false}
+      showsHorizontalScrollIndicator={false}
+    >
       {storageNote?<Txt style={st.notice}>{storageNote}</Txt>:null}
       {tab==='check'?<DiagnosticScreen mode={mode} scenario={scenario} setScenario={setScenario} labOptions={labOptions} labScenario={labScenario} setLabScenario={setLabScenario} access={access} setAccess={setAccess} error={error} busy={busy} isDisabled={isDisabled} base={base} open={open} choose={choose} run={run}/>:null}
 

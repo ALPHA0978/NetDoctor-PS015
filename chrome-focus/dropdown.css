@@ -1,0 +1,72 @@
+select:not([multiple], [size]) {
+  cursor: pointer;
+}
+
+select:not([multiple], [size]):hover:enabled,
+select:not([multiple], [size]):focus-visible {
+  border-color: var(--dropdown-accent);
+}
+
+select:not([multiple], [size]):disabled {
+  opacity: .65;
+  cursor: not-allowed;
+}
+
+@supports (appearance: base-select) {
+  select:not([multiple], [size]),
+  select:not([multiple], [size])::picker(select) {
+    appearance: base-select;
+  }
+
+  select:not([multiple], [size])::picker-icon {
+    content: '';
+    width: .48em;
+    height: .48em;
+    margin: .15em .22em 0 .6em;
+    border: solid currentColor;
+    border-width: 0 1.5px 1.5px 0;
+    color: var(--dropdown-accent);
+    rotate: 45deg;
+  }
+
+  select:not([multiple], [size]):open::picker-icon {
+    margin-top: .4em;
+    rotate: 225deg;
+  }
+
+  select:not([multiple], [size])::picker(select) {
+    margin-block: 4px;
+    max-block-size: min(280px, 50vh);
+    overflow: auto;
+    scrollbar-width: none;
+    padding: 4px;
+    background: var(--dropdown-surface);
+    color: var(--dropdown-text);
+    border: 1px solid var(--dropdown-border);
+    border-radius: 9px;
+    box-shadow: 0 8px 24px #08162033;
+  }
+
+  select:not([multiple], [size]) option {
+    min-block-size: 32px;
+    padding: 6px 9px;
+    gap: 10px;
+    border-radius: 5px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  select:not([multiple], [size]) option[hidden] {
+    display: none;
+  }
+
+  select:not([multiple], [size]) option:checked,
+  select:not([multiple], [size]) option:enabled:is(:hover, :focus-visible) {
+    background: var(--dropdown-highlight);
+    color: var(--dropdown-text);
+  }
+
+  select:not([multiple], [size]) option:checked::checkmark {
+    color: var(--dropdown-accent);
+  }
+}

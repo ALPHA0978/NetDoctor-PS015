@@ -8,7 +8,7 @@
   "scripts": {
     "start": "electron .",
     "test": "node --test",
-    "check": "node --check main.cjs && node --check preload.cjs && node --check renderer.js && node --check model.js && node --check src/judge-view.js",
+    "check": "node --check main.cjs && node --check preload.cjs && node --check renderer.js && node --check model.js && node --check src/judge-view.js && node --check network-monitor.cjs && node --check src/network-view.js && node --check src/network-map.js",
     "test:desktop": "electron desktop-smoke.cjs"
   },
   "devDependencies": {
